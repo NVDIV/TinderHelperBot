@@ -22,7 +22,6 @@ public class TinderBoltApp extends MultiSessionTelegramBot {
 
     @Override
     public void onUpdateEventReceived(Update update) {
-        // Основний функціонал бота будемо писати тут
 
         String message = getMessageText();
 
